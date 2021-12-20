@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.only_step">
+    <!-- Flutter needs it to communicate with the running application
+         to allow setting breakpoints, to provide hot reload, etc.
+    -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <meta-data
+    android:name="com.samsung.android.health.permission.read"
+    android:value="com.samsung.health.step_count;com.samsung.shealth.step_daily_trend"
+/>
+</manifest>
